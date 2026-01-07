@@ -1,4 +1,3 @@
-
 export interface AudioItem {
   id: string;
   title: string;
@@ -11,7 +10,19 @@ export interface AudioItem {
 
 export type MainTab = 'radios' | 'reels' | 'musicas' | 'shop';
 export type ViewState = 'home' | 'shop' | 'reels' | 'audios' | 'perfil' | 'artist' | 'wallet' | 'player' | 'admin';
-export type AdminSubView = 'dashboard' | 'users' | 'tokens' | 'moderation' | 'store' | 'reports' | 'settings';
+
+// Tipos atualizados conforme solicitação do menu lateral
+export type AdminSubView = 
+  | 'dashboard' 
+  | 'artists' 
+  | 'users' 
+  | 'tv' 
+  | 'radios' 
+  | 'reels' 
+  | 'podcasts' 
+  | 'marketplace' 
+  | 'wallet' 
+  | 'settings';
 
 export interface UserAccount {
   id: string;

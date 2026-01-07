@@ -2,6 +2,7 @@
   "name": "FLX",
   "description": "The ultimate audio library and streaming experience. Music, Radios, Albums, Playlists, and Podcasts in one place.",
   "requestFramePermissions": [
-    "microphone"
+    "microphone",
+    "camera"
   ]
 }
